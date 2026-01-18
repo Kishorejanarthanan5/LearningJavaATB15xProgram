@@ -7,8 +7,8 @@ public class CheckStringLength {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string: ");
         String input = scanner.nextLine();
-        int l = input.length();
-        if(l>10)
+
+        if(input.length() >10)
         System.out.println("Given String is greater then 10 character");
         else
            System.out.println("Given String is less or equal to 10 character");
